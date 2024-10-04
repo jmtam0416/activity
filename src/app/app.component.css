@@ -1,0 +1,80 @@
+.app-header {
+    background-color: darkgoldenrod;
+    padding: 20px;
+    color:  flex;
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-header h1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.app-header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.app-header nav ul {
+    margin: 0;
+}
+
+.app-header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.background-container {
+    background-color: lightblue;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+.centered-text {
+    color: brown;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+
+.app-footer {
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.app-footer nav {
+    margin-top: 10px;
+}
+
+.app-footer nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.app-footer nav a:hover {
+    text-decoration: underline;
+}
